@@ -4,7 +4,7 @@
 title: Aakash Bhatia
 
 # Short description of your site
-description: Student - M.S. Computer Science (Spl. Data Science and Engineering) at Stony Brook University
+description: M.S. Computer Science (Spl. Data Science and Engineering) at Stony Brook University
 
 # Your name to show in the footer
 author: Aakash Bhatia
@@ -12,11 +12,11 @@ author: Aakash Bhatia
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Projects and Research: "projectsandresearch"
+  Work Experience: "workexp"
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  
+  
 
 # --- Logo --- #
 
@@ -39,19 +39,19 @@ round-avatar: true
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
   email: "asbhatia@cs.stonybrook.edu"
-  #facebook: deanattali
+  #facebook: aakashsbhatia
   github: aakashsbhatia2
-  twitter: aakashsbhatia
-  rss: true
+#  twitter: aakashsbhatia
+#  rss: true
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: aakashsbhatia
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  youtube: user/deanat78
 #  spotify: yourname
-#  telephone: +14159998888
+  telephone: +1 (408) 668 5501
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -66,7 +66,7 @@ social-network-links:
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: false
+  facebook: true
   linkedin: true
   vk: false
 
