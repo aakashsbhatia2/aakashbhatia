@@ -15,15 +15,37 @@ This project is a re-implementation of the paper [Finding Deceptive Opinion Spam
 
 <hr /> 
 
-<h3>Interactive Visualisation of Road Accidents in the United States</h3>
-In this project, I developed concise, interactive, single-screen visual dashboard using Python and d3.js to study the effects of weather conditions on road accidents within the United States.
+<h3>Interactive Visual Dashboard for Road Accidents in the United States</h3>
+In this project, I developed a concise, interactive, single-screen visual dashboard using Python and d3.js to study the effects of weather conditions on road accidents within the United States.
 - Dataset: The dataset contained statistics of road accidents with the United States. This dataset was obtained from Kaggle. The dataset can be found [here](https://www.kaggle.com/sobhanmoosavi/us-accidents)
 - Technologies used:
     - JavaScript: I used d3.js to create the visualisations
-    - Python: A Flask Server to host the dashboard, perform operations (Principal Component Analysis, k-means clustering), render updated data to the dashboard.
+    - Python: A Flask Server to host the dashboard, perform operations on the data (Principal Component Analysis, k-means clustering), render updated data to the dashboard.
     - HTML, CSS: To create the webpage containing the visualisations
 - Data Science Techniques used: 
     - Principal Component Analysis: I performed dimension reduction using PCA to generate a scatter-plot matrix of the top 2 PC vectors.
     - Stratified Sampling using k-means clustering: To project the data onto a parallel Co-ordinate chart, I performed stratified sampling using k-means clustering. This allowed me to reduce the number of datapoints being projected while maintaining the data distribution.
 - Libraries Used: [Scikit-Learn](https://scikit-learn.org/stable/), [d3.js](https://d3js.org/), [Flask](https://pypi.org/project/Flask/)
 - You may view the code for this project on GitHub [here](https://github.com/aakashsbhatia2/Visualization-Project)
+
+<hr /> 
+
+<h3>Machine Learning Algorithms from scratch </h3>
+In this project, I implemented 5 machine learning algorithms from scratch (i.e. WITHOUT [Scikit-Learn](https://scikit-learn.org/stable/)). The algorithms I implemented are:
+- Perceptron:
+    - I implemented the perceptron algorithm from scratch using Python. My implementation can be found on GitHub [here](https://github.com/aakashsbhatia2/Perceptron-AdaBoost)
+- Adaptive Boosting (AdaBoost):
+    - I implemented Adaptive Boosting from scratch using Python. 
+    - I used decision stumps as the weak learners for my implementation
+    - My implementation can be found on GitHub [here](https://github.com/aakashsbhatia2/Perceptron-AdaBoost)
+- Support Vector Machines (SVM):
+    - I implemented Support Vector Machines from scratch using Python.
+    - I used stocastic gradient decent optimization for my implementation of SVM.
+    - My implementation can be found on GitHub [here](https://github.com/aakashsbhatia2/Support-Vector-Machine)
+- K-means Clustering:
+    - I implemented the k-means clustering algorithm from scratch using Python.
+    - I used Euclidean distance, Manhattan distance and Minkowski distance metrics for my implementation
+    - My implementation can be found on GitHub [here](https://github.com/aakashsbhatia2/k-means)
+- K-nearest Neighbors:
+    - I implemented the k nearest neighbors algorithm from scratch using Python 
+    - My implementation can be found on GitHub [here](https://github.com/aakashsbhatia2/K-Nearest-Neighbors)
