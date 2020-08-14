@@ -3,12 +3,11 @@ layout: page
 title: Projects
 subtitle: 
 ---
-
 <h3>Detecting Deceptive Hotel Reviews</h3>
 This project is a re-implementation of the paper [Finding Deceptive Opinion Spam by Any Stretch of the Imagination](https://www.aclweb.org/anthology/P11-1032/). Here, I developed machine learning models to classify honest and deceptive reviews for the top 20 hotels in Chicago. The hotel reviews were obtained from TripAdvisor.
 - Dataset: The dataset consisted of 400 truthful and 400 deceptive hotel reviews.
 - Algorithms used: Support Vector Machines, Naive Bayes
-- Language encodings used: Uni-gram, Bi-gram, Tri-gram
+- Language encodings used: Uni-gram, Bi-gram, Tri-gram. The Bi-gram and Tri-gram representations consumed the prior n-gram notation as well.
 - Technologies used: Python
 - Libraries used: [Scikit-Learn](https://scikit-learn.org/stable/), [NLTK](https://www.nltk.org/)
 - You may view the code for this project on GitHub [here](https://github.com/aakashsbhatia2/Deception-detection)
@@ -49,3 +48,15 @@ In this project, I implemented 5 machine learning algorithms from scratch (i.e. 
 - K-nearest Neighbors:
     - I implemented the k nearest neighbors algorithm from scratch using Python 
     - My implementation can be found on GitHub [here](https://github.com/aakashsbhatia2/K-Nearest-Neighbors)
+
+
+<hr /> 
+
+<h3>COVID-19 Data Analysis using Hadoop and Spark</h3>
+In this project, I used Hadoop and Spark to analyse a COVID-19 dataset. 
+- I performed 3 tasks:
+    - Obtain the number of cases per country and world-wide
+    - Obtain the number of cases per country and world-wide for a given time period
+    - Obtain country-wise number of cases per million
+- Technologies used: [Hadoop](https://hadoop.apache.org/), [Spark](https://spark.apache.org/), Java
+- My implementation can be found on GitHub [here](https://github.com/aakashsbhatia2/COVID-19-Analytics)
