@@ -7,7 +7,7 @@ subtitle:
 <h3>Research Assistant - Stony Brook University - Department of Computer Science</h3>
 <h6>January 2020 - Present</h6>
 - I am advised by [Dr. Ritwik Banerjee](https://www3.cs.stonybrook.edu/~rbanerjee/)
-- My area's of research are Computational Linguistics and Machine Learning in the medical domain.
+- My area's of research are Natural Language Processing and Machine Learning in the medical domain.
 <hr/>
 <h3>Ernst & Young LLP (EY LLP) - Information Technology Risk & Assurance</h3>
 <h6>Associate Consultant: June 2018 - July 2019</h6>
