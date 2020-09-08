@@ -4,6 +4,17 @@ title: Work Experience
 subtitle: 
 ---
 
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175479624-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-175479624-1');
+</script>
+
 <h3>Research Assistant - Stony Brook University - Department of Computer Science</h3>
 <h6>January 2020 - Present</h6>
 - I am advised by [Dr. Ritwik Banerjee](https://www3.cs.stonybrook.edu/~rbanerjee/)
