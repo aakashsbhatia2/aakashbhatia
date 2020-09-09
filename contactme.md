@@ -15,6 +15,8 @@ subtitle:
   gtag('config', 'UA-175479624-1');
 </script>
 
+</head>
+
 **University Email ID**: asbhatia@cs.stonybrook.edu
 
 **Personal Email ID**: aakashsbhatia@gmail.com
