@@ -30,6 +30,8 @@ Bi-Directional GRU with Attention:
 - Reference papers used:
     - [SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals](https://www.aclweb.org/anthology/S10-1006.pdf)
     - [Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification](https://www.aclweb.org/anthology/P16-2034.pdf)
+
+Technologies Used: [TensorFlow 2.0](https://www.tensorflow.org/)
 <hr />
 
 <h3>Word2Vec - Skipgram and Bias Evaluation (WEAT)</h3>
