@@ -16,17 +16,11 @@ subtitle:
 </script>
 </head>
 <h3>Deep Learning Models for NLP</h3>
-*Deep Averaging Network and GRU:* Developed a [Deep Averaging Networks (DAN)](https://people.cs.umass.edu/~miyyer/pubs/2015_acl_dan.pdf) and [Gated Recurrent Units (GRU)](https://arxiv.org/pdf/1412.3555.pdf) to perform sentiment analysis. Evaluated the information learned at each layer using linear probes (linear classifiers) on the output at each layer.
+**Deep Averaging Network and GRU:** Developed a [Deep Averaging Networks (DAN)](https://people.cs.umass.edu/~miyyer/pubs/2015_acl_dan.pdf) and [Gated Recurrent Units (GRU)](https://arxiv.org/pdf/1412.3555.pdf) to perform sentiment analysis. Evaluated the information learned at each layer using linear probes (linear classifiers) on the output at each layer.
 
-*Neural-network based transition parsing:* Developed a neural-network based transition parsing (arc-standard algorithm) model with a custom cubic activation function. Studied the performance of cubic activation vs tanh and sigmoid activations.
-- Reference papers used:
-    - [Incrementality in Deterministic Dependency Parsing](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.63.5472&rep=rep1&type=pdf) 
-    - [A Fast and Accurate Dependency Parser using Neural Networks](https://nlp.stanford.edu/pubs/emnlp2014-depparser.pdf)
+*Neural-network based transition parsing:* Developed a neural-network based transition parsing (arc-standard algorithm) model with a custom cubic activation function. Studied the performance of cubic activation vs tanh and sigmoid activations. Reference papers used: [Incrementality in Deterministic Dependency Parsing](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.63.5472&rep=rep1&type=pdf) and [A Fast and Accurate Dependency Parser using Neural Networks](https://nlp.stanford.edu/pubs/emnlp2014-depparser.pdf)
 
-*Bi-Directional GRU with Attention:* Developed a model using bi-directional GRU with attention to perform relation extraction on the SemEval 2010 dataset.
-- Reference papers used:
-    - [SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals](https://www.aclweb.org/anthology/S10-1006.pdf)
-    - [Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification](https://www.aclweb.org/anthology/P16-2034.pdf)
+*Bi-Directional GRU with Attention:* Developed a model using bi-directional GRU with attention to perform relation extraction on the SemEval 2010 dataset. Reference papers used: [SemEval-2010 Task 8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals](https://www.aclweb.org/anthology/S10-1006.pdf) and [Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification](https://www.aclweb.org/anthology/P16-2034.pdf)
 
 Technologies Used: [TensorFlow 2.0](https://www.tensorflow.org/)
 <hr />
